@@ -1,0 +1,15 @@
+{
+  "name": "My Simple Repo",
+  "description": "This is my custom source folder",
+  "sources": [
+    {
+      "id": "mysourceid",
+      "name": "My Custom Source",
+      "version": "1.0.0",
+      "type": "manga",
+      "lang": "en",
+      "file": "mysource.js",
+      "nsfw": false
+    }
+  ]
+}
