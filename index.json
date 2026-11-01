@@ -1,14 +1,68 @@
 {
-  "name": "My Simple Repo",
-  "description": "This is my custom source folder",
+  "name": "My Custom Repo",
+  "description": "Custom extensions for video and manga tracking.",
   "sources": [
     {
-      "id": "mysourceid",
-      "name": "My Custom Source",
+      "id": "cinejoy",
+      "name": "Cinejoy",
+      "version": "1.0.0",
+      "type": "movie",
+      "lang": "en",
+      "file": "providers/cinejoy.js",
+      "nsfw": false
+    },
+    {
+      "id": "wcotv",
+      "name": "WCO.tv",
+      "version": "1.0.0",
+      "type": "anime",
+      "lang": "en",
+      "file": "providers/wcotv.js",
+      "nsfw": false
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "version": "1.0.0",
+      "type": "anime",
+      "lang": "en",
+      "file": "providers/youtube.js",
+      "nsfw": false
+    },
+    {
+      "id": "aniwatch",
+      "name": "AniWatch",
+      "version": "1.0.0",
+      "type": "anime",
+      "lang": "en",
+      "file": "providers/aniwatch.js",
+      "nsfw": false
+    },
+    {
+      "id": "atsumaru",
+      "name": "Atsumaru",
       "version": "1.0.0",
       "type": "manga",
       "lang": "en",
-      "file": "mysource.js",
+      "file": "providers/atsumaru.js",
+      "nsfw": false
+    },
+    {
+      "id": "comix",
+      "name": "Comix",
+      "version": "1.0.0",
+      "type": "manga",
+      "lang": "en",
+      "file": "providers/comix.js",
+      "nsfw": false
+    },
+    {
+      "id": "mangadex",
+      "name": "MangaDex",
+      "version": "1.0.0",
+      "type": "manga",
+      "lang": "en",
+      "file": "providers/mangadex.js",
       "nsfw": false
     }
   ]
